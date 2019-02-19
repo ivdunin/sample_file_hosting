@@ -1,0 +1,14 @@
+{
+  "DEBUG": true,
+  "TESTING": true,
+  "HOST": "127.0.0.1",
+  "PORT": 5000,
+  "ROOT_CERT": "/home/dunin/Projects/ca_srvc_api/ca/rootCA.crt",
+  "PRIVATE_KEY": "/home/dunin/Projects/ca_srvc_api/ca/rootCA.key",
+  "INDEX_DB": "/home/dunin/Projects/ca_srvc_api/ca/index.txt",
+  "NEW_CERT_DIR": "/home/dunin/Projects/ca_srvc_api/ca/newcert",
+  "MAX_EXPIRY": 30,
+  "LOGGER_NAME": "file_hosting_logger",
+  "LOGGER_HANDLER_POLICY": "debug",
+  "SECRET_KEY": "dummykey"
+}
