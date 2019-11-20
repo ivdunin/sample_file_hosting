@@ -12,7 +12,7 @@ Run the application:
     or
     FLASK_APP=app.py flask run
 
-And check it in the browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+And check it in the browser at [http://127.0.0.1:5500/](http://127.0.0.1:5000/)
 
 ## Usage
 
