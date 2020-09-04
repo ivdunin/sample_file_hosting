@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
 # Copyright (c) 2018 Dunin Ilya.
 """ Main Service file """
 
@@ -15,7 +15,6 @@ api.add_resource(FileHosting, '/files', '/files/<fid>')
 
 
 if __name__ == '__main__':
-    print(app.config)
     context = None  # pylint: disable=invalid-name
     if not app.config.get('DEBUG'):
         context = (app.config.get('ROOT_CERT'), app.config.get('PRIVATE_KEY'))  # pylint: disable=invalid-name

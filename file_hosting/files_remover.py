@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
 # Copyright (c) 2018 Dunin Ilya.
 """ Remove old files (job for cron) """
 
